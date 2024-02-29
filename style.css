@@ -19,6 +19,7 @@ a:-webkit-any-link {
 }
 a:hover {
   background: rgb(234, 234, 234);
+  padding:1rem
   text-decoration: underline 1px black;
 }
 
@@ -196,7 +197,8 @@ button:hover {
 
   a:hover {
     background: rgb(234, 234, 234);
-    text-decoration: underline 1px;
+    /* text-decoration: underline 5px; */
+    
   }
   p {
     font-size: 1rem;
@@ -208,6 +210,7 @@ button:hover {
     margin: 3rem 0;
   }
   .nav-bar {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -255,6 +258,11 @@ button:hover {
     display: inline;
     padding: 1rem;
   }
+  li:hover{
+    display: inline;
+    padding: 1rem;
+    border-bottom: #00001a;
+  }
 
   /* Hero */
   .main {
@@ -295,8 +303,7 @@ button:hover {
     /* align-items: center; */
     background: #00001a;
   }
-  .text > h3 {
-  }
+  
   .text-title {
     padding: 0;
   }
